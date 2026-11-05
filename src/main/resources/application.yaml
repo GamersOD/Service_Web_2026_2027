@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: "https://keycloak.bober.ovh/realms/master"
+          jwk-set-uri: "https://keycloak.bober.ovh/realms/master/protocol/openid-connect/certs"
+  application:
+    name: demo
+
+s3:
+  accesskey: "cqBlF80IVJrc1isWW6oK"
+  secretkey: "KPJlY826Qi0d952w4GWmQIvA0zfvWi62hvIyiZlT"
